@@ -1,3 +1,12 @@
+/**
+ * Class describing all file operations for the server to use.
+ * These include appending text to a file and reading text from a file.
+ * The constructor ensures the data is always read/written to/from /data/file.txt.
+ * 
+ * @author Liam Pickrell
+ * @author Chat GPT (for proper directory creation and routing issues)
+ */
+
 const fs = require("fs");
 const path = require("path");
 

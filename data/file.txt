@@ -1,0 +1,4 @@
+BCIT
+Practice Writing to a file with spaces
+practice to see if escape \n sequences work too
+do  the   space  sequences   work?

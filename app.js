@@ -1,3 +1,10 @@
+/**
+ * File is to use the two MathOperation functions. Creates two variables
+ * and adds them and subtracts them. 
+ * 
+ * @author Liam Pickrell
+ */
+
 const MathOperations = require("./math");
 
 const math = new MathOperations();
