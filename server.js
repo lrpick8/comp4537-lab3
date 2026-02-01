@@ -95,5 +95,6 @@ class ServerApp {
     }
 }
 
-// Create the server application and start it on port 3000
-new ServerApp(3000).start();
+// Create the server application and start it on port 3000 or 
+// whatever port is specified in the environment variables
+new ServerApp(process.env.PORT || 3000).start();
